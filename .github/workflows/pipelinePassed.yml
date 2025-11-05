@@ -1,0 +1,7 @@
+pipelinePassed:
+  runs-on: ubuntu-latest
+  needs: buildTestDeploy
+  steps:
+    - name: All passed
+      run: |
+        echo "All steps have passed"
