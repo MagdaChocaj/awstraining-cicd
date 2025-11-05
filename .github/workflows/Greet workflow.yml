@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Greet
         id: greet
-        uses: MagdaChocaj/awstraining-hellow/
+        uses: MagdaChocaj/awstraining-hellow
         with:
           name: ${{ matrix.name }}
       - name: Print action call output
